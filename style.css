@@ -19,6 +19,8 @@ width:900px;
 max-width:100%;
 }
 
+/* Card */
+
 .card{
 background:white;
 padding:30px;
@@ -31,13 +33,14 @@ margin-bottom:25px;
 h1{
 margin-bottom:5px;
 color:#333;
-font-size:28px;
 }
 
 .subtitle{
 color:#777;
 margin-bottom:20px;
 }
+
+/* Search */
 
 .search-box{
 display:flex;
@@ -74,17 +77,24 @@ button:hover{
 background:#2d8cf0;
 }
 
+/* Table */
+
 .table-container{
 background:white;
 border-radius:12px;
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
+padding:10px;
+}
+
+/* Mobile table scroll */
+.table-scroll{
 overflow-x:auto;
 }
 
 table{
 width:100%;
 border-collapse:collapse;
-min-width:600px;
+min-width:650px;
 }
 
 thead{
@@ -95,6 +105,7 @@ color:white;
 th,td{
 padding:14px;
 text-align:center;
+border-bottom:1px solid #eee;
 }
 
 tbody tr:nth-child(even){
@@ -105,9 +116,9 @@ tbody tr:hover{
 background:#eaf4ff;
 }
 
-/* Mobile Responsive */
+/* Mobile responsive */
 
-@media (max-width:768px){
+@media (max-width:600px){
 
 .card{
 padding:20px;
@@ -137,8 +148,8 @@ max-width:300px;
 }
 
 th,td{
-padding:10px;
 font-size:13px;
+padding:10px;
 }
 
 }
