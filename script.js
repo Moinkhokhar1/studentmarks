@@ -12,7 +12,8 @@ fetch("marks.csv")
             branch: cols[1],
             name: cols[2],
             subject: cols[3],
-            marks: cols[4]
+            cet1: cols[4],
+            cet2: cols[5]
         });
     });
 });
@@ -42,7 +43,8 @@ function searchStudent() {
             <td>${student.branch}</td>
             <td>${student.name}</td>
             <td>${student.subject}</td>
-            <td>${student.marks}</td>
+            <td>${student.cet1}</td>
+            <td>${student.cet2}</td>
             </tr>
             `;
 
