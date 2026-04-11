@@ -1,6 +1,6 @@
 let marksData = [];
 
-fetch("marks.csv")
+fetch("Result.csv")
 .then(response => response.text())
 .then(data => {
 
